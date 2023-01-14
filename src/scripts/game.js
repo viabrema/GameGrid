@@ -1,0 +1,95 @@
+export const game = {
+  player: {
+    name: "Vitor",
+    x: 0,
+    y: 0,
+    rX: 0,
+    rY: 0,
+  },
+  cam: {
+    x: 0,
+    y: 0,
+  },
+  qSize: 50,
+  map: {
+    layer1: [
+      {
+        position: "10x10",
+        x: 1,
+        y: 1,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 23,
+        y: 13,
+        solid: false,
+      },
+      {
+        position: "10x10",
+        x: 22,
+        y: 11,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 3,
+        y: 13,
+        solid: false,
+      },
+      {
+        position: "10x10",
+        x: 4,
+        y: 6,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 44,
+        y: 34,
+        solid: false,
+      },
+      {
+        position: "10x10",
+        x: 4,
+        y: 6,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 7,
+        y: 4,
+        solid: false,
+      },
+      {
+        position: "10x10",
+        x: 10,
+        y: 34,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 33,
+        y: 11,
+        solid: false,
+      },
+      {
+        position: "10x10",
+        x: 14,
+        y: 16,
+        solid: true,
+      },
+      {
+        position: "11x13",
+        x: 10,
+        y: 200,
+        solid: false,
+      },
+    ],
+  },
+  pressKey_w: false,
+  pressKey_d: false,
+  pressKey_s: false,
+  pressKey_a: false,
+  pressKey_j: false,
+};
